@@ -1,0 +1,71 @@
+﻿Build started 27.08.2012 12:55:09.
+     1>Project "c:\Projects\BI\BI\BI.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\BI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.7.1\include /I.\GeneratedFiles\Release /ID:\Qt\4.7.1\include\QtCore /ID:\Qt\4.7.1\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bi.cpp distance.cpp GeneratedFiles\Release\moc_bi.cpp GeneratedFiles\Release\moc_screen.cpp GeneratedFiles\Release\moc_TipsWnd.cpp graphicsObj.cpp main.cpp misc.cpp numeric.cpp recognition.cpp screen.cpp TipsPainter.cpp TipsWnd.cpp
+         bi.cpp
+     1>bi.cpp(472): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(472): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(472): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(472): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(472): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(472): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(474): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+         distance.cpp
+         moc_bi.cpp
+         moc_screen.cpp
+         moc_TipsWnd.cpp
+         graphicsObj.cpp
+     1>graphicsObj.cpp(720): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(726): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(736): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(742): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(752): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(758): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(768): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(774): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(787): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(787): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(799): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(799): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+         main.cpp
+         misc.cpp
+         numeric.cpp
+         recognition.cpp
+         screen.cpp
+     1>screen.cpp(303): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+         TipsPainter.cpp
+         TipsWnd.cpp
+         Generating Code...
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.7.1\include /I.\GeneratedFiles\Release /ID:\Qt\4.7.1\include\QtCore /ID:\Qt\4.7.1\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_bi.cpp
+         qrc_bi.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Projects\BI\Win32\Release\\BI.exe" /NOLOGO /LIBPATH:D:\Qt\4.7.1\lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\BI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"c:\Projects\BI\Win32\Release\BI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Projects\BI\Win32\Release\BI.lib" /MACHINE:X86 Release\bi.obj
+         Release\distance.obj
+         Release\qrc_bi.obj
+         Release\moc_bi.obj
+         Release\moc_screen.obj
+         Release\moc_TipsWnd.obj
+         Release\graphicsObj.obj
+         Release\main.obj
+         Release\mathem.obj
+         Release\misc.obj
+         Release\numeric.obj
+         Release\recognition.obj
+         Release\screen.obj
+         Release\TipsPainter.obj
+         Release\TipsWnd.obj
+         BI.vcxproj -> c:\Projects\BI\Win32\Release\BI.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\Projects\BI\Win32\Release\\BI.exe;#1" /manifest Release\BI.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\BI.unsuccessfulbuild".
+         Touching "Release\BI.lastbuildstate".
+     1>Done Building Project "c:\Projects\BI\BI\BI.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:19.93

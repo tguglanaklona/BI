@@ -1,0 +1,73 @@
+﻿Build started 31.10.2012 20:37:27.
+     1>Project "C:\Projects\BI\BI\BI.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\BI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+         Moc'ing bi.h...
+         Uic'ing bi.ui...
+         Moc'ing screen.h...
+         Moc'ing TipsWnd.h...
+         Rcc'ing bi.qrc...
+     1>RCC : warning : No resources in 'C:\Projects\BI\BI\bi.qrc'.
+         
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.7.1\include /I.\GeneratedFiles\Debug /ID:\Qt\4.7.1\include\QtCore /ID:\Qt\4.7.1\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_TipsWnd.cpp GeneratedFiles\Debug\moc_bi.cpp GeneratedFiles\Debug\moc_screen.cpp TipsWnd.cpp bi.cpp graphicsObj.cpp main.cpp numeric.cpp
+         moc_TipsWnd.cpp
+         moc_bi.cpp
+         moc_screen.cpp
+         TipsWnd.cpp
+         bi.cpp
+     1>bi.cpp(483): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(483): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(483): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(483): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(483): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(483): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+     1>bi.cpp(485): warning C4482: nonstandard extension used: enum 'TipsWnd::WindowMode' used in qualified name
+         graphicsObj.cpp
+     1>graphicsObj.cpp(732): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(738): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(748): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(754): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(764): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(770): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(780): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(786): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(799): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(799): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(811): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+     1>graphicsObj.cpp(811): warning C4482: nonstandard extension used: enum 'HoleFrame::ChamferPosition' used in qualified name
+         main.cpp
+         numeric.cpp
+         Generating Code...
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.7.1\include /I.\GeneratedFiles\Debug /ID:\Qt\4.7.1\include\QtCore /ID:\Qt\4.7.1\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_bi.cpp
+         qrc_bi.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\BI\Win32\Debug\\BI.exe" /NOLOGO /LIBPATH:D:\Qt\4.7.1\lib qtmaind.lib QtCored4.lib QtGuid4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Projects\BI\Win32\Debug\BI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\BI\Win32\Debug\BI.lib" /MACHINE:X86 Debug\bi.obj
+         Debug\distance.obj
+         Debug\moc_bi.obj
+         Debug\moc_screen.obj
+         Debug\moc_TipsWnd.obj
+         Debug\qrc_bi.obj
+         Debug\graphicsObj.obj
+         Debug\main.obj
+         Debug\mathem.obj
+         Debug\misc.obj
+         Debug\numeric.obj
+         Debug\recognition.obj
+         Debug\screen.obj
+         Debug\TipsPainter.obj
+         Debug\TipsWnd.obj
+         LINK : C:\Projects\BI\Win32\Debug\\BI.exe not found or not built by the last incremental link; performing full link
+         BI.vcxproj -> C:\Projects\BI\Win32\Debug\BI.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Projects\BI\Win32\Debug\\BI.exe;#1" /manifest Debug\BI.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\BI.unsuccessfulbuild".
+         Touching "Debug\BI.lastbuildstate".
+     1>Done Building Project "C:\Projects\BI\BI\BI.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:07.65
